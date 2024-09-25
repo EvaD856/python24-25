@@ -1,5 +1,8 @@
 '''
-Simple for Loop Statement
+Author:Eva Donahue
+Program: forLoops.py
+Last Update: 9/25/2024
+Sample for Loop Statement
 '''
 
 for eachPass in range(5):
@@ -9,7 +12,7 @@ for eachPass in range(5):
 print("This print statment is outside of our for Loop.")
 
 print() # Empty print statements will create a blank line
-print()
+print() #works like <br> in html
 print()
 '''
 Using Variables with for Loops
