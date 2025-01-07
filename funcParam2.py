@@ -27,8 +27,17 @@ print("\n Part 2 of our Example:\n")
 #Give the user the option to repeat this process as many times as they want.
 #If they want to quit, they type the word Quit
     # Have users input positive integers
-myVar1 = int(input("Please Enter a positive whole number or type Quit to exit"))
-myVar2 = int(input("Please Enter a positive whole number "))
 
-# call the sum() function to 
-sum(myVar1, myVar2)
+active = True
+while active == True:
+    myVar1 = int(input("Please Enter a positive whole number"))
+    myVar2 = int(input("Please Enter a positive whole number"))
+
+    # call the sum() function to 
+    sum(myVar1, myVar2)
+
+    keep_going = input("Continue? Type Quit to exit or Yes to continue: ")
+    if keep_going == str("Quit"):
+        active = False
+    elif keep_going == str("Yes"):
+        active = True
