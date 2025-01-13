@@ -2,7 +2,7 @@ def is_prime(number):
     '''
     Check if a number is a prime number.
 
-    Args:
+    Args(arguments):
         number(int): The number to check from the user 
 
     Return:
