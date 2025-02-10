@@ -114,6 +114,7 @@ while True:
     print("3. View Expense Report")
     print("4. Quit")
 
+
     #Ask the user what they want to do
     choice = input("Enter your choice: ")
 
@@ -137,4 +138,3 @@ while True:
         break
     else:
         print("Invalid choice. Please choose again: ")
-        
